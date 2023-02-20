@@ -1,0 +1,146 @@
+h1{
+  position:relative;
+  width:930px;
+  padding:20px;
+  background-color:lightyellow;
+  justify-content:center;
+  left:740px;
+  display:flex;
+  color:brown;
+  flex-wrap:wrap;
+  font-size:75px;
+  font-family: 'Cabin Sketch', cursive;
+  
+
+}
+
+#resetButton{
+  position:absolute;
+  left:1275px;
+  bottom:1145px;
+  width:150px;
+  padding:15px;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  font-family: 'Cabin Sketch', cursive;
+  font-size:20px;
+  color:brown;
+  background-color:lightyellow;
+  border-radius:20px;
+  border-style:solid;
+  border-color:brown;
+  vertical-align:top;
+}
+#resizeButton{
+  position:absolute;;
+  left:1000px;
+  bottom:1145px;
+  width:150px;
+  padding:15px;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  font-family: 'Cabin Sketch', cursive;
+  font-size:20px;
+  color:brown;
+  background-color:lightyellow;
+  border-radius:20px;
+  border-style:solid;
+  border-color:brown;
+  
+}
+
+body {
+    color:white;
+    background-color:lightgreen;
+}
+#container{
+  display:flex;
+  flex-wrap:wrao;
+  width:0px;
+  position:relative;
+  left:740px;
+  background-color:white;
+  color:white;
+  top:80px;
+}
+
+.rows{
+  height: 60px;
+  width:60px;
+  flex-wrap:nowrap;
+  background-color:red;
+}
+
+.columns{
+  height:60px;
+  width:60px;
+  border: 1px solid black;
+  background-color:white;
+}
+
+.resize{
+  width:100px;
+  display:flex;
+  justify-content:center;
+}
+
+.rainbow{
+  position:relative;
+  top:50px;
+}
+
+.noColor{
+  position:relative;
+  top:75px;
+}
+
+#containerTwo{  
+  
+  display:flex;
+  flex-wrap:wrao;
+  width:0px;
+  position:relative;
+  left:750px;
+  top:50px;
+  background-color:white;
+  }
+.longerRows{
+  height: 15px;
+  width:15px;
+  flex-wrap:nowrap;
+  background-color:white;
+
+ }
+.longerColumns{
+  height:15px;
+  width:15px;
+  border:1px solid black;
+  background-color:white;
+}
+
+#containerThree{ 
+  display:flex;
+  flex-wrap:wrao;
+  width:0px;
+  position:relative;
+  left:850px;
+  background-color:white;
+  
+}
+
+.newRows{
+  height: 40px;
+  width:40px;
+  flex-wrap:nowrap;
+  
+}
+
+.newColumns{
+  height:40px;
+  width:40px;
+  border: 1px solid black;
+}
+ 
+
