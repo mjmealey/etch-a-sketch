@@ -1,0 +1,863 @@
+h1 {
+  position: relative;
+  width: 1500px;
+  padding: 20px;
+  background-color: lightyellow;
+  border-radius:20px;
+  justify-content: center;
+  left: 450px;
+  bottom:30px;
+  display: flex;
+  color: brown;
+  flex-wrap: wrap;
+  font-size: 75px;
+  font-family: "Cabin Sketch", cursive;
+}
+
+
+
+#defaultColor{
+  position: absolute;
+  left: 470px;
+  bottom: 1142px;
+  width: 150px;
+  display: flex;
+  padding:7px;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "Cabin Sketch", cursive;
+  font-size: 22px;
+  color: brown;
+  background-color: lightyellow;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: brown;
+  vertical-align: top;
+}
+
+#bigGrey{
+  position: absolute;
+  left: 470px;
+  bottom: 1196px;
+  width: 150px;
+  padding:7px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "Cabin Sketch", cursive;
+  font-size:22px;
+  color: brown;
+  background-color: lightyellow;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: brown;
+  vertical-align: top;
+}
+
+#red{
+  position: absolute;
+  left: 780px;
+  bottom: 1143px;
+  width: 150px;
+  padding:5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "Cabin Sketch", cursive;
+  font-size: 25px;
+  color: brown;
+  background-color: lightyellow;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: brown;
+  vertical-align: top;
+}
+
+#bigRed{
+  position: absolute;
+  left: 780px;
+  bottom: 1198px;
+  width: 150px;
+  padding:7px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "Cabin Sketch", cursive;
+  font-size:20px;
+  color: brown;
+  background-color: lightyellow;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: brown;
+  vertical-align: top;
+}
+
+#rainbow {
+  position: absolute;
+  left: 625px;
+  bottom: 1145px;
+  width: 150px;
+  padding:7px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "Cabin Sketch", cursive;
+  font-size: 19px;
+  color: brown;
+  background-color: lightyellow;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: brown;
+  vertical-align: top;
+}
+
+#bigRainbow{
+  position: absolute;
+  left: 625px;
+  bottom: 1200px;
+  width: 150px;
+  display: flex;
+  padding:7.2px;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "Cabin Sketch", cursive;
+  font-size: 18px;
+  color: brown;
+  background-color: lightyellow;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: brown;
+  vertical-align: top;
+}
+
+#icy{
+  position: absolute;
+  left: 1073px;
+  bottom: 1144px;
+  width: 140px;
+  padding:7px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "Cabin Sketch", cursive;
+  font-size: 19px;
+  color: brown;
+  background-color: lightyellow;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: brown;
+  vertical-align: top;
+}
+
+#bigIcy{
+  position: absolute;
+  left: 1073px;
+  bottom: 1195px;
+  width: 140px;
+  padding:7px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "Cabin Sketch", cursive;
+  font-size: 19px;
+  color: brown;
+  background-color: lightyellow;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: brown;
+  vertical-align: top;
+}
+
+#purple{
+  position: absolute;
+  left: 1220px;
+  bottom: 1145px;
+  width: 150px;
+  padding:5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "Cabin Sketch", cursive;
+  font-size: 22px;
+  color: brown;
+  background-color: lightyellow;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: brown;
+  vertical-align: top;
+}
+
+#bigPurple{
+  position: absolute;
+  left: 1220px;
+  bottom: 1197px;
+  width: 150px;
+  padding:5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "Cabin Sketch", cursive;
+  font-size: 21px;
+  color: brown;
+  background-color: lightyellow;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: brown;
+  vertical-align: top;
+}
+
+ #bigAsh{ 
+  position: absolute;
+  left: 1375px;
+  bottom: 1198px;
+  width: 150px;
+  padding:5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "Cabin Sketch", cursive;
+  font-size: 22px;
+  color: brown;
+  background-color: lightyellow;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: brown;
+  vertical-align: top;
+}
+
+#ash{
+  position: absolute;
+  left: 1375px;
+  bottom: 1145px;
+  width: 150px;
+  padding:5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "Cabin Sketch", cursive;
+  font-size: 22px;
+  color: brown;
+  background-color: lightyellow;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: brown;
+  vertical-align: top;
+}
+
+#pink {
+  position: absolute;
+  left: 1530px;
+  bottom: 1145px;
+  width: 150px;
+  padding:5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "Cabin Sketch", cursive;
+  font-size: 22px;
+  color: brown;
+  background-color: lightyellow;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: brown;
+  vertical-align: top;
+}
+
+#bigPink{
+  position: absolute;
+  left: 1530px;
+  bottom: 1198px;
+  width: 150px;
+  padding:5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "Cabin Sketch", cursive;
+  font-size: 22px;
+  color: brown;
+  background-color: lightyellow;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: brown;
+  vertical-align: top;
+}
+
+#green{
+  position: absolute;
+  left: 1685px;
+  bottom: 1145px;
+  width: 150px;
+  padding:5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "Cabin Sketch", cursive;
+  font-size: 22px;
+  color: brown;
+  background-color: lightyellow;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: brown;
+  vertical-align: top;
+}
+
+#bigGreen{
+  position: absolute;
+  left: 1685px;
+  bottom: 1198px;
+  width: 150px;
+  padding:5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "Cabin Sketch", cursive;
+  font-size: 22px;
+  color: brown;
+  background-color: lightyellow;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: brown;
+  vertical-align: top;
+}
+
+#yellow{
+  position: absolute;
+  left: 1840px;
+  bottom: 1145px;
+  width: 150px;
+  padding:5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "Cabin Sketch", cursive;
+  font-size: 22px;
+  color: brown;
+  background-color: lightyellow;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: brown;
+  vertical-align: top;
+}
+
+#bigYellow{
+  position: absolute;
+  left: 1840px;
+  bottom: 1198px;
+  width: 150px;
+  padding:6px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "Cabin Sketch", cursive;
+  font-size: 20px;
+  color: brown;
+  background-color: lightyellow;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: brown;
+  vertical-align: top;
+}
+
+#sky{
+  position: absolute;
+  left: 936px;
+  bottom: 1143px;
+  width: 130px;
+  padding:5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "Cabin Sketch", cursive;
+  font-size: 22px;
+  color: brown;
+  background-color: lightyellow;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: brown;
+  vertical-align: top;
+}
+#bigSky{
+  position: absolute;
+  left: 936px;
+  bottom: 1197px;
+  width: 130px;
+  padding:5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "Cabin Sketch", cursive;
+  font-size: 22px;
+  color: brown;
+  background-color: lightyellow;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: brown;
+  vertical-align: top;
+}
+
+body {
+  color: white;
+  background-color: lightgreen;
+}
+
+#container {
+  display: flex;
+  width: 0px;
+  position: relative;
+  left: 740px;
+  background-color: white;
+  color: white;
+  top: 80px;
+}
+
+.rows {
+  height: 60px;
+  width: 60px;
+  flex-wrap: nowrap;
+  background-color: red;
+}
+
+.columns {
+  height: 60px;
+  width: 60px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.colorRows {
+  height: 60px;
+  width: 60px;
+  flex-wrap: nowrap;
+  background-color: red;
+}
+
+.colorColumns {
+  height: 60px;
+  width: 60px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+#containerTwo {
+  display: flex;
+  width: 0px;
+  position: relative;
+  left: 750px;
+  top: 50px;
+  background-color: white;
+}
+.longerRows {
+  height: 15px;
+  width: 15px;
+  flex-wrap: nowrap;
+  background-color: white;
+}
+.longerColumns {
+  height: 15px;
+  width: 15px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+#containerThree {
+  display: flex;
+  width: 0px;
+  position: relative;
+  left: 740px;
+  background-color: white;
+  color: white;
+  top: 80px;
+}
+
+#containerFour {
+  display: flex;
+  width: 0px;
+  position: relative;
+  left: 750px;
+  top: 50px;
+  background-color: white;
+}
+
+.bigColorRows {
+  height: 15px;
+  width: 15px;
+  flex-wrap: nowrap;
+  background-color: white;
+}
+
+.bigColorColumns {
+  height: 15px;
+  width: 15px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+#containerFive {
+  display: flex;
+  flex-wrap: wrao;
+  width: 0px;
+  position: relative;
+  left: 740px;
+  background-color: white;
+  color: white;
+  top: 80px;
+}
+
+.dragonColumns {
+  height: 60px;
+  width: 60px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.dragonRows {
+  height: 60px;
+  width: 60px;
+  flex-wrap: nowrap;
+  background-color: red;
+}
+
+#containerSix {
+  display: flex;
+  flex-wrap: wrao;
+  width: 0px;
+  position: relative;
+  left: 740px;
+  background-color: white;
+  color: white;
+  top: 80px;
+}
+
+.icyRows {
+  height: 60px;
+  width: 60px;
+  flex-wrap: nowrap;
+}
+
+.icyColumns {
+  height: 60px;
+  width: 60px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+#containerSeven {
+  display: flex;
+  width: 0px;
+  position: relative;
+  left: 750px;
+  top: 50px;
+  background-color: white;
+}
+
+.bigDragonRows {
+  height: 15px;
+  width: 15px;
+  flex-wrap: nowrap;
+  background-color: white;
+}
+
+.bigDragonColumns {
+  height: 15px;
+  width: 15px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+#containerEight {
+  display: flex;
+  width: 0px;
+  position: relative;
+  left: 750px;
+  top: 50px;
+  background-color: white;
+}
+
+.bigIcyRows {
+  height: 15px;
+  width: 15px;
+  flex-wrap: nowrap;
+  background-color: white;
+}
+
+.bigIcyColumns {
+  height: 15px;
+  width: 15px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+#containerNine {
+  display: flex;
+  width: 0px;
+  position: relative;
+  left: 740px;
+  background-color: white;
+  color: white;
+  top: 80px;
+}
+
+.purpleRows {
+  height: 60px;
+  width: 60px;
+  flex-wrap: nowrap;
+}
+
+.purpleColumns {
+  height: 60px;
+  width: 60px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+#containerTen{
+  display: flex;
+  width: 0px;
+  position: relative;
+  left: 750px;
+  top: 50px;
+  background-color: white;
+}
+
+.bigPurpleRows{
+  height: 15px;
+  width: 15px;
+  flex-wrap: nowrap;
+  background-color: white;
+  }
+
+  .bigPurpleColumns{
+    height: 15px;
+    width: 15px;
+    border: 1px solid black;
+    background-color: white;
+  }
+  
+  #containerEleven{
+    display: flex;
+    width: 0px;
+    position: relative;
+    left: 740px;
+    background-color: white;
+    color: white;
+    top: 80px;
+  }
+
+  .ashRows{
+    height: 60px;
+    width: 60px;
+    flex-wrap: nowrap;
+  }
+  .ashColumns{
+    height: 60px;
+    width: 60px;
+    border: 1px solid black;
+    background-color: white;
+  }
+
+  #containerTwelve{
+    display: flex;
+    width: 0px;
+    position: relative;
+    left: 750px;
+    top: 50px;
+    background-color: white;
+  }
+
+  .bigAshRows{
+    height: 15px;
+    width: 15px;
+    flex-wrap: nowrap;
+    background-color: white;
+  }
+
+  .bigAshColumns{
+    height: 15px;
+    width: 15px;
+    border: 1px solid black;
+    background-color: white;
+  }
+
+  #containerThirteen{
+    display: flex;
+    width: 0px;
+    position: relative;
+    left: 740px;
+    background-color: white;
+    color: white;
+    top: 80px;
+  }
+
+  .pinkRows{
+    height: 60px;
+    width: 60px;
+    flex-wrap: nowrap;
+}
+
+.pinkColumns{   
+  height: 60px;
+  width: 60px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+#containerFourteen{
+  display: flex;
+  width: 0px;
+  position: relative;
+  left: 750px;
+  top: 50px;
+  background-color: white;
+}
+
+.bigPinkRows{
+  height: 15px;
+  width: 15px;
+  flex-wrap: nowrap;
+  background-color: white;
+}
+
+.bigPinkColumns{
+  height: 15px;
+  width: 15px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+#containerFifteen{
+  display: flex;
+  width: 0px;
+  position: relative;
+  left: 740px;
+  background-color: white;
+  color: white;
+  top: 80px;
+}
+
+.greenRows{
+  height: 60px;
+  width: 60px;
+  flex-wrap: nowrap;
+}
+
+.greenColumns{
+  height: 60px;
+  width: 60px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+#containerSixteen{
+  display: flex;
+  width: 0px;
+  position: relative;
+  left: 750px;
+  top: 50px;
+  background-color: white;
+}
+
+.bigGreenRows{
+  height: 15px;
+  width: 15px;
+  flex-wrap: nowrap;
+  background-color: white;
+}
+
+.bigGreenColumns{
+  height: 15px;
+  width: 15px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+#containerSeventeen{
+  display: flex;
+  width: 0px;
+  position: relative;
+  left: 740px;
+  background-color: white;
+  color: white;
+  top: 80px;
+}
+
+.yellowRows{
+  height: 60px;
+  width: 60px;
+  flex-wrap: nowrap;
+}
+
+.yellowColumns{
+  height: 60px;
+  width: 60px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+#containerEighteen{
+  display: flex;
+  width: 0px;
+  position: relative;
+  left: 750px;
+  top: 50px;
+  background-color: white;
+}
+
+.bigYellowRows{
+  height: 15px;
+  width: 15px;
+  flex-wrap: nowrap;
+  background-color: white;
+}
+
+.bigYellowColumns{
+  height:15px;
+  width:15px;
+  border: 1px solid black;
+  background-color:white;
+}
+
+#containerNinteen{
+  display: flex;
+  width: 0px;
+  position: relative;
+  left: 740px;
+  background-color: white;
+  color: white;
+  top: 80px;
+}
+
+.skyRows{
+  height: 60px;
+  width: 60px;
+  flex-wrap: nowrap;
+}
+
+.skyColumns{
+  height: 60px;
+  width: 60px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+#containerTwenty{
+  display: flex;
+  width: 0px;
+  position: relative;
+  left: 750px;
+  top: 50px;
+  background-color: white;
+}
+
+.bigSkyRows{
+  height: 15px;
+  width: 15px;
+  flex-wrap: nowrap;
+  background-color: white;
+}
+
+.bigSkyColumns{
+  height:15px;
+  width:15px;
+  border: 1px solid black;
+  background-color:white;
+}
