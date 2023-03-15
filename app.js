@@ -210,7 +210,7 @@ function biggerGrid(longerRows, longerColumns) {
     }
   }
 }
-
+//make the rainbow color grid
 function makeColorGrid(colorRows, colorColumns) {
   for (let i = 0; i < colorRows; i++) {
     let colorRows = document.createElement("div");
@@ -228,7 +228,7 @@ function makeColorGrid(colorRows, colorColumns) {
     }
   }
 }
-
+//makes the 64x64 color grid
 function makeBigColorGrid(bigColorRows, bigColorColumns) {
   for (let i = 0; i < bigColorRows; i++) {
     let bigColorRows = document.createElement("div");
@@ -250,20 +250,7 @@ function makeBigColorGrid(bigColorRows, bigColorColumns) {
   }
 }
 
-//allows the resize button to function
-function userPrompt() {
-  let userInput = prompt(
-    "What would you like your grid size to be? 16 or 64? (Default is 16)"
-  );
-  if (userInput === "16") {
-    makeGrid(16, 16);
-    resetGrid();
-  } else if (userInput === "64") {
-    resetBigGrid();
-    biggerGrid(64, 64);
-  } else userInput === null;
-}
-
+//makes the crimson and brown grid
 function dragonGrid(dragonRows, dragonColumns) {
   for (let i = 0; i < dragonRows; i++) {
     let dragonRows = document.createElement("div");
@@ -283,7 +270,7 @@ function dragonGrid(dragonRows, dragonColumns) {
     }
   }
 }
-
+//makes the 64x64 crimson and brown grid
 function bigDragonGrid(bigDragonRows, bigDragonColumns) {
   for (let i = 0; i < bigDragonRows; i++) {
     let bigDragonRows = document.createElement("div");
@@ -301,7 +288,7 @@ function bigDragonGrid(bigDragonRows, bigDragonColumns) {
     }
   }
 }
-
+//makes the icy colored grid
 function icyGrid(icyRows, icyColumns) {
   for (let i = 0; i < icyRows; i++) {
     let icyRows = document.createElement("div");
@@ -319,7 +306,7 @@ function icyGrid(icyRows, icyColumns) {
     }
   }
 }
-
+//64x64 icy grid
 function bigIcyGrid(bigIcyRows, bigIcyColumns) {
   for (let i = 0; i < bigIcyRows; i++) {
     let bigIcyRows = document.createElement("div");
@@ -357,7 +344,7 @@ function purpleGrid(purpleRows, purpleColumns) {
     }
   }
 }
-
+//64x64 purple grid
 function bigPurpleGrid(bigPurpleRows, bigPurpleColumns) {
   for (let i = 0; i < bigPurpleRows; i++) {
     let bigPurpleRows = document.createElement("div");
@@ -375,7 +362,7 @@ function bigPurpleGrid(bigPurpleRows, bigPurpleColumns) {
     }
   }
 }
-
+//ash grid
 function ashGrid(ashRows, ashColumns) {
   for (let i = 0; i < ashRows; i++) {
     let ashRows = document.createElement("div");
@@ -393,7 +380,7 @@ function ashGrid(ashRows, ashColumns) {
     }
   }
 }
-
+//64x64 ash grid
 function bigAshGrid(bigAshRows, bigAshColumns) {
   for (let i = 0; i < bigAshRows; i++) {
     let bigAshRows = document.createElement("div");
@@ -412,6 +399,7 @@ function bigAshGrid(bigAshRows, bigAshColumns) {
   }
 }
 
+//pink grid
 function pinkGrid(pinkRows, pinkColumns) {
   for (let i = 0; i < pinkRows; i++) {
     let pinkRows = document.createElement("div");
@@ -429,7 +417,7 @@ function pinkGrid(pinkRows, pinkColumns) {
     }
   }
 }
-
+//64x64 pink grid
 function bigPinkGrid(bigPinkRows, bigPinkColumns) {
   for (let i = 0; i < bigPinkRows; i++) {
     let bigPinkRows = document.createElement("div");
@@ -447,7 +435,7 @@ function bigPinkGrid(bigPinkRows, bigPinkColumns) {
     }
   }
 }
-
+//green grid
 function greenGrid(greenRows, greenColumns) {
   for (let i = 0; i < greenRows; i++) {
     let greenRows = document.createElement("div");
@@ -465,7 +453,7 @@ function greenGrid(greenRows, greenColumns) {
     }
   }
 }
-
+//big green grid
 function bigGreenGrid(bigGreenRows, bigGreenColumns) {
   for (let i = 0; i < bigGreenRows; i++) {
     let bigGreenRows = document.createElement("div");
@@ -483,7 +471,7 @@ function bigGreenGrid(bigGreenRows, bigGreenColumns) {
     }
   }
 }
-
+//yellow grid
 function yellowGrid(yellowRows, yellowColumns) {
   for (let i = 0; i < yellowRows; i++) {
     let yellowRows = document.createElement("div");
@@ -501,7 +489,7 @@ function yellowGrid(yellowRows, yellowColumns) {
     }
   }
 }
-
+//64d64 yellow grid
 function bigYellowGrid(bigYellowRows, bigYellowColumns) {
   for (let i = 0; i < bigYellowRows; i++) {
     let bigYellowRows = document.createElement("div");
@@ -519,7 +507,7 @@ function bigYellowGrid(bigYellowRows, bigYellowColumns) {
     }
   }
 }
-
+//light blue grid
 function skyGrid(skyRows, skyColumns) {
   for (let i = 0; i < skyRows; i++) {
     let skyRows = document.createElement("div");
@@ -537,7 +525,7 @@ function skyGrid(skyRows, skyColumns) {
     }
   }
 }
-
+//64x64 light blue grid
 function bigSkyGrid(bigSkyRows, bigSkyColumns) {
   for (let i = 0; i < bigSkyRows; i++) {
     let bigSkyRows = document.createElement("div");
@@ -555,7 +543,7 @@ function bigSkyGrid(bigSkyRows, bigSkyColumns) {
     }
   }
 }
-
+//resets the big grid
 function resetBigGrid() {
   container.innerHTML = null;
   containerTwo.innerHTML = null;
@@ -579,7 +567,7 @@ function resetBigGrid() {
   containerTwenty.innerHTML = null;
   biggerGrid();
 }
-
+//resets back to default gray grid
 function resetToGrayGrid() {
   container.innerHTML = null;
   containerTwo.innerHTML = null;
@@ -603,7 +591,7 @@ function resetToGrayGrid() {
   containerTwenty.innerHTML = null;
   makeGrid(16, 16);
 }
-
+//resets back to 64x64 grid
 function resetToBigGrayGrid() {
   container.innerHTML = null;
   containerTwo.innerHTML = null;
@@ -627,6 +615,8 @@ function resetToBigGrayGrid() {
   containerTwenty.innerHTML = null;
   biggerGrid(64, 64);
 }
+
+//resets to color grid
 function resetToColor() {
   container.innerHTML = null;
   containerTwo.innerHTML = null;
@@ -649,6 +639,8 @@ function resetToColor() {
   containerNinteen.innerHTML = null;
   containerTwenty.innerHTML = null;
 }
+
+//resets to 64x64 color grid
 function resetToBigColor() {
   container.innerHTML = null;
   containerTwo.innerHTML = null;
@@ -672,6 +664,8 @@ function resetToBigColor() {
   containerTwenty.innerHTML = null;
   makeBigColorGrid(64, 64);
 }
+
+//resets to dragon grid
 function resetToRed() {
   container.innerHTML = null;
   containerTwo.innerHTML = null;
@@ -696,6 +690,8 @@ function resetToRed() {
   dragonGrid(16, 16);
 }
 
+
+//resets to big dragon grid
 function resetToBigRed() {
   container.innerHTML = null;
   containerTwo.innerHTML = null;
@@ -720,6 +716,7 @@ function resetToBigRed() {
   bigDragonGrid(64, 64);
 }
 
+//resets to icy grid
 function resetToIcy() {
   container.innerHTML = null;
   containerTwo.innerHTML = null;
@@ -743,7 +740,7 @@ function resetToIcy() {
   containerTwenty.innerHTML = null;
   icyGrid(16, 16);
 }
-
+//resets to big icy grid
 function resetToBigIcy() {
   container.innerHTML = null;
   containerTwo.innerHTML = null;
@@ -768,6 +765,7 @@ function resetToBigIcy() {
   bigIcyGrid(64, 64);
 }
 
+//resets to purple grid
 function resetToPurple() {
   container.innerHTML = null;
   containerTwo.innerHTML = null;
@@ -791,7 +789,7 @@ function resetToPurple() {
   containerTwenty.innerHTML = null;
   purpleGrid(16, 16);
 }
-
+//resets to 64x64 purple grid
 function resetToBigPurple() {
   container.innerHTML = null;
   containerTwo.innerHTML = null;
@@ -815,7 +813,7 @@ function resetToBigPurple() {
   containerTwenty.innerHTML = null;
   bigPurpleGrid(64, 64);
 }
-
+//resets to ash grid
 function resetToAsh() {
   container.innerHTML = null;
   containerTwo.innerHTML = null;
@@ -839,7 +837,7 @@ function resetToAsh() {
   containerTwenty.innerHTML = null;
   ashGrid(16, 16);
 }
-
+//resets to 64x64 ash grid
 function resetToBigAsh() {
   container.innerHTML = null;
   containerTwo.innerHTML = null;
@@ -863,7 +861,7 @@ function resetToBigAsh() {
   containerTwenty.innerHTML = null;
   bigAshGrid(64, 64);
 }
-
+//resets to pink grid
 function resetPinkGrid() {
   container.innerHTML = null;
   containerTwo.innerHTML = null;
@@ -887,7 +885,7 @@ function resetPinkGrid() {
   containerTwenty.innerHTML = null;
   pinkGrid(16, 16);
 }
-
+//resets to big pink grid
 function resetBigPink() {
   container.innerHTML = null;
   containerTwo.innerHTML = null;
@@ -911,7 +909,7 @@ function resetBigPink() {
   containerTwenty.innerHTML = null;
   bigPinkGrid(64, 64);
 }
-
+//resets to green grid
 function resetGreen() {
   container.innerHTML = null;
   containerTwo.innerHTML = null;
@@ -935,7 +933,7 @@ function resetGreen() {
   containerTwenty.innerHTML = null;
   greenGrid(16,16);
 }
-
+//resets to 64x64 green grid
 function resetBigGreen() {
   container.innerHTML = null;
   containerTwo.innerHTML = null;
@@ -959,7 +957,7 @@ function resetBigGreen() {
   containerTwenty.innerHTML = null;
   bigGreenGrid(64,64);
 }
-
+//resets to yellow grid
 function resetYellow() {
   container.innerHTML = null;
   containerTwo.innerHTML = null;
@@ -983,7 +981,7 @@ function resetYellow() {
   containerTwenty.innerHTML = null;
   yellowGrid(16, 16);
 }
-
+//resets to big yellow grid
 function resetBigYellow() {
   container.innerHTML = null;
   containerTwo.innerHTML = null;
@@ -1007,7 +1005,7 @@ function resetBigYellow() {
   containerTwenty.innerHTML = null;
   bigYellowGrid(64, 64);
 }
-
+//resets to sky grid
 function resetSky() {
   container.innerHTML = null;
   containerTwo.innerHTML = null;
@@ -1031,7 +1029,7 @@ function resetSky() {
   containerTwenty.innerHTML = null;
   skyGrid(16, 16);
 }
-
+//resets to 64x64 sky grid
 function resetBigSky() {
   container.innerHTML = null;
   containerTwo.innerHTML = null;
